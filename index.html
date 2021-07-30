@@ -7,20 +7,171 @@
     <title>Assignment-3</title>
     <!-- Bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header Portion -->
     <header>
-
+        <section class="container d-flex align-items-center justify-content-around my-3">
+            <div class="row">
+                <div class="container col-lg-6 col-12">
+                    <p>Explore an innovative line of quality products from American Honda Motor Company</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p class="text-justify">Honda and Toyota vehicles often score well in studies carried out by J.D. Power and Consumer Reports, suggesting they are highly reliable. This makes a Honda or Toyota model a good choice for a used car, since these models usually have a lot of life left in them, even if they've already covered 100,000 miles or more.</p>
+                    <button class="btn btn-warning">Purchase</button>
+                </div>
+                <div class="container col-lg-6 col-12">
+                    <img src="images/header-bike.png" alt="">
+                </div>
+            </div>
+            
+        </section>
+        
     </header>
+    <!-- Section -->
+
     <!-- Main Portion -->
     <main>
-        
+        <section class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/bike-4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- Grayscale Section -->
+        <section class="grayscale">
+          <div class="featured-gray">
+            <img src="images/bike-4.jpg" alt="">
+          </div>
+          <div class="featured-color">
+            <img src="images/bike-4.jpg" alt="">
+          </div>
+          <div class="featured-gray">
+            <img src="images/bike-4.jpg" alt="">
+          </div>
+          
+
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="container">
+            <h1>Latest News</h1>
+            <div class="card-group ">
+                <div class="card border-0">
+                  <img src="images/bike-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ducati XDIAVEL S-73</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div>
+                    <button class="btn btn-warning">Read More</button>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="images/bike-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Moto & Scootee</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div>
+                    <button class="btn btn-warning">Read More</button>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img src="images/bike-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">2021 Honda CBR500R</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div>
+                    <button class="btn btn-warning">Read More</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Section FAQ -->
+        <section class="container d-flex  justify-content-around my-5">
+          <div class="row">
+            <h1 class="text-center">Frequently Asked <span class="Question">Questions</span></h1>
+            <div class="col-lg-6 col-12 figure">
+              <img src="images/faq.png" class="figure-img img-fluid alt=">
+            </div>
+            <div class="col-lg-6 col-12" >
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How!
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    When?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
     </main>
     <!-- Footer portion -->
     <footer>
+        <div class="container my-5 px-4">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3 border bg-warning">faq</div>
+              </div>
+            </div>
+          </div>
 
     </footer>
+    
     
 <!-- Bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
